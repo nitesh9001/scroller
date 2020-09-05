@@ -1,6 +1,6 @@
 # scroller
 
-> Made with create-react-library
+> Scoller UI and Scroll to top function 
 
 [![NPM](https://img.shields.io/npm/v/scroller.svg)](https://www.npmjs.com/package/scroller) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -37,7 +37,7 @@ class Example extends Component {
  ```
 /-----------------------------------------------------------------------------------------------------------\
 |                     |                                                 |                                   |
-| Prop Name           |                     Use                         |     Type                          |
+|     Prop Name       |                     Use                         |               Type                |
 |_____________________|_________________________________________________|___________________________________|
 | backgroundColor     |   Add background Color to scrollTop btn         |  hex, rbga , rbg , name           |
 | color               |   Define color for arrow in scrollTop btn       |  hex, rbga , rbg , name           |
