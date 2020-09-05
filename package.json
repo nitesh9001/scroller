@@ -54,7 +54,8 @@
     "dist"
   ],
   "dependencies": {
-    "@fortawesome/react-fontawesome": "^0.1.11"
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "prop-types": "^15.7.2"
   },
   "bugs": {
     "url": "https://github.com/nitesh9001/scroller/issues"

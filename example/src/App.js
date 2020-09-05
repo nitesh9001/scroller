@@ -6,7 +6,7 @@ import 'scroller/dist/index.css'
 const App = () => {
   var text={
     color:"white",
-    borderRadius:10,
+    borderRadius:40,
     right:30,
     shadowColor:"grey",
     onHover:"orange",
