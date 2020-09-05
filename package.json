@@ -1,5 +1,5 @@
 {
-  "name": "scroller",
+  "name": "@nitesh2020/scroller",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "nitesh9001",
@@ -49,5 +49,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.1.11"
+  }
 }

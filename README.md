@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save scroller
+npm install --save @nitesh2020/scroller
 ```
 
 ## Usage
@@ -15,12 +15,21 @@ npm install --save scroller
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'scroller'
+import {Scroller} from 'scroller'
+// If you want to use animation then import css//
 import 'scroller/dist/index.css'
 
 class Example extends Component {
+  var objectScroll={
+      backgroundColor: 'backkground color of icon in hexa decimal' ,
+      color: 'color of icon in hexa decimal',
+      borderRadius: 'border radius of box',
+      right: 'alignment from the right',
+      onhover: 'color when mousehover',
+      shadowColor: 'color of shadow ',
+  }
   render() {
-    return <MyComponent />
+    return <Scroller {...objectScroll} />
   }
 }
 ```

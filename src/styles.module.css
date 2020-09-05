@@ -1,9 +1,18 @@
 /* add css module styles here (optional) */
+.animateicon{
+  -webkit-animation: anim_icon 1s steps(3) .5s infinite forwards;
+  animation: anim_icon 1s steps(3) .5s infinite forwards;
+  -moz-animation: anim_icon 1s steps(3) .5s infinite forwards;
+}
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+@keyframes anim_icon{
+  0%{
+    transform: translateY(1px);
+  }
+  50%{
+    transform: translateY(2px);
+  }
+  100%{
+    transform: translateY(4px);
+  }
 }
