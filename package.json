@@ -4,7 +4,10 @@
   "description": "Made with create-react-library",
   "author": "nitesh9001",
   "license": "MIT",
-  "repository": "nitesh9001/scroller",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitesh9001/scroller.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -52,5 +55,18 @@
   ],
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.11"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/nitesh9001/scroller/issues"
+  },
+  "homepage": "https://github.com/nitesh9001/scroller#readme",
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "scroll",
+    "scroller",
+    "scrollTo",
+    "scrollTop"
+  ]
 }
